@@ -1,0 +1,22 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: rgb(19, 19, 18);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: rgba(10, 123, 175, 0.491);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgba(173, 166, 166, 0.404);
+    font-weight: bold;
+    border-radius: 5px;
+}

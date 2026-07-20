@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(28, 26, 25);
+}
+
+h1 {
+    color: tomato;
+}
+
+#p1 {
+    color: rgb(99, 234, 139);
+}
+
+#p2 {
+    color: rgba(143, 181, 188, 0.753);
+}
+
+#p3 {
+    color: #9f2769;
+}
+
+#p4 {
+    color: hsl(86, 100%, 45%);
+}

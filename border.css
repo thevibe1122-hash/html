@@ -1,0 +1,33 @@
+h1 {
+    border-style: dashed;
+    border-width: 4;
+    border-color: purple;
+    border-radius: 5;
+}
+
+#p1 {
+    border-bottom: 4px dotted rgb(234, 60, 60);
+    border-radius: 15;
+    border-left: groove 2px black;
+    border-right: groove 1px black;
+    border-top: solid 6px rgb(0, 0, 107);
+}
+
+#p2 {
+    border: 3px solid hsl(219, 50%, 35%);
+    border-radius: 12;
+}
+
+#p3 {
+    border-style: solid;
+    border-width: 4;
+    border-color: rgb(60, 133, 173);
+    border-radius: 8;
+}
+
+#p4 {
+    border-style: inset;
+    border-width: 4;
+    border-color: rgb(217, 215, 217);
+    border-radius: 5;
+}

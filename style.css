@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: rgb(255, 123, 0);
+}
+
+#p3 {
+    color: green;
+}
+
+#p4 {
+    color: blue;
+}
+
+
+
+.even {
+    color: rgb(255, 0, 0);
+}
+
+.odd {
+    color: aqua;
+}

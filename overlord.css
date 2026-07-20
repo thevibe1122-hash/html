@@ -1,0 +1,83 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(81, 69, 0);
+
+    height: 100%;
+    width: 100%;
+    top: -28px;
+    left: -5px;
+    margin-top: 0;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    text-underline-position: below;
+
+
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    text-underline-position: below;
+    font-size: larger;
+
+}
+
+.d1 a {
+
+    color: rgb(81, 69, 0);
+    font-size: 30px;
+}
+
+.d1 p {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    text-underline-position: below;
+}
+
+#i1 {
+
+    float: left;
+    height: 360px;
+    width: 310px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 15px rgb(58, 58, 58);
+}
+
+.d2 {
+    margin-left: 340px;
+    font-size: 180%;
+    padding-left: 50px;
+}
+
+.d2 a {
+    color: rgb(1, 60, 99);
+}
+
+#d3 {
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.411);
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("/pics/1276429.jpg");
+    background-attachment: fixed;
+
+
+}
+
+video {
+    height: 350px;
+    padding-left: 20px;
+}

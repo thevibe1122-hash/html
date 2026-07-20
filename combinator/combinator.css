@@ -1,0 +1,24 @@
+#containor {
+    border: 2px solid black;
+}
+
+/* decendent is  */
+#containor p {
+    background-color: red;
+
+}
+
+/* child is a tag */
+#containor>p {
+    background-color: green;
+}
+
+/* general sibling is ~ */
+#containor~p {
+    background-color: yellow;
+}
+
+/* adjacent sibling is + */
+#containor+p {
+    background-color: blue;
+}

@@ -1,0 +1,45 @@
+a:link {
+    color: rgb(255, 0, 0)
+}
+
+a:hover {
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: rgb(255, 255, 0);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: rgb(217, 217, 62);
+}
+
+li:not(:hover) {
+    background-color: rgb(87, 239, 247);
+}
+
+li:nth-child(even) {
+    background-color: rgb(78, 241, 78);
+}
+
+#greeting p {
+    display: none;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.315);
+}
+
+#greeting:hover p {
+    display: block;
+}

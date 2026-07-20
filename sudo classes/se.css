@@ -1,0 +1,28 @@
+h1::first-letter {
+    font-size: 2em;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::selection {
+    background-color: aqua;
+    color: black;
+}
+
+#fruit li::before {
+    content: "✓";
+    color: red;
+}
+
+#apple::after {
+    content: " Favorite";
+    color: blueviolet;
+}
+
+#fruit li::marker {
+    content: "➡️";
+    color: rgb(0, 255, 17);
+    font-size: 1.2em;
+}

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    align-items: baseline;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    font-size: 3cm;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#item1 {
+    background-color: red;
+    font-size: 3cm;
+    align-self: flex-end;
+    order: 1;
+}
+
+#item2 {
+    background-color: blue;
+    align-self: center;
+    order: 1;
+}
+
+#item3 {
+    background-color: rgb(0, 255, 89);
+}
+
+#item4 {
+    background-color: rgb(200, 255, 0);
+}
